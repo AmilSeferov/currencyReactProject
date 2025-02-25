@@ -1,0 +1,10 @@
+*{
+  /* border: 1px dashed gold; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #d3d696;
+  padding: 5px;
+}

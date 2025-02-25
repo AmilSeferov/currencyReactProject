@@ -1,0 +1,42 @@
+.ccMain{
+    width: 500px;
+    height: 90vh;
+    background-color: #5e5e5f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    .ccmInputs{
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .ccmiselect{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .ccmSellect{
+            padding: 3px;
+            margin: 5px;
+            height: 30px;
+            width: 70px;
+            background-color: rgb(77, 77, 77);
+            border-radius: 10px;
+            outline: none;
+            
+        }
+        .ccmInput{
+            padding: 3px;
+            margin: 5px;
+            height: 30px;
+            width: 200px;
+            background-color: rgb(77, 77, 77);
+            border-radius: 10px;
+            outline: none;
+        }
+    }
+    
+}
